@@ -1,2 +1,11 @@
-// Placeholder entry point — the real API lands in the next commit.
-export const version = '0.1.0';
+export { useSpringCounter } from './useSpringCounter';
+export { SpringCounter } from './SpringCounter';
+export type { SpringCounterProps } from './SpringCounter';
+export { usePrefersReducedMotion } from './usePrefersReducedMotion';
+export { formatCounterValue } from './format';
+export type {
+  SpringConfig,
+  FormatOptions,
+  SpringCounterOptions,
+  SpringCounterState,
+} from './types';
